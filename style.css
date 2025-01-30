@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 122, 200);
+    background-image:linear-gradient(
+            rgba(233, 122, 200, 0.8),
+            rgba(238, 140, 222, 0.504)
+          ), url("https://img.freepik.com/free-vector/childish-white-background_1020-992.jpg?t=st=1738167126~exp=1738170726~hmac=00d9b2e3cb6d0071ebcba9b01669943a809f7a93270944ea3d0cf8971b124bae&w=996");
+    color: white;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+}
+
+header {
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 2px solid;
+}
+.addTask{
+    display: flex;
+    justify-content: space-evenly;
+}
+.todo-container{
+    border:none;
+    border-radius: 15px;
+    background-color: rgba(245, 184, 235, 0.692);
+    height: 100px auto;
+    width: 500px;
+}
+.box-shadow{
+  box-shadow: 0px 0px 500px 55px rgb(245,237,247);
+}
+.card-hover:hover{
+  box-shadow: 0px 0px 500px 55px rgb(245, 230, 245);
+}
+input{
+    margin:20px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    height: 40px;
+    width: 800px
+}
+.submit{
+    margin:20px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: rgb(241, 197, 230);
+    border:1.5px solid rgb(158, 119, 146);
+}
+.fa-plus-circle{
+    color: rgb(119, 90, 112);
+}
+ul{
+    list-style: none;
+    padding: 10px;
+    font-size: 2vh;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 5px;
+    align-items: center;
+}
+.checkBox{
+    background-color: rgb(241, 197, 230);
+    height:25px;
+    width:25px;
+    border:2px solid rgb(158, 119, 146);
+}
+.checked{
+    background-color: rgb(184, 140, 173);
+    border:2px solid rgb(124, 96, 116);
+}
+.strike{
+    text-decoration: rgb(128, 90, 119) line-through 2px;
+}
