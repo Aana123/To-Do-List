@@ -32,7 +32,7 @@ header {
     border-radius: 15px;
     background-color: rgba(245, 184, 235, 0.692);
     height: 50% auto;
-    width: 62%;
+    width: 72%;
     max-width: 500px;
 }
 .box-shadow{
@@ -47,7 +47,7 @@ input{
     border-radius: 6px;
     border: none;
     height: 40px;
-    width: 800px
+    width: 800px;
 }
 .submit{
     margin:20px;
@@ -87,5 +87,5 @@ li{
     text-decoration: rgb(128, 90, 119) line-through 2px;
 }
 .fa-trash{
-    color: rgb(124, 96, 116);
+    color: rgb(92, 74, 87);
 } 
